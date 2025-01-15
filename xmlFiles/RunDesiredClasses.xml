@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+        Smoke Test icin
+
+        Day15 den C05 Class'ini
+        Day16 dan C01, C06 Class'larini
+        Day17 den C01, C02, C03 Class'larini
+        Day18 den C01, C02 Class'larini
+        toplu olarak calistirin
+-->
+
+<suite name="Smoke Test Suite">
+    <test name="Smoke Test">
+        <classes>
+            <class name="tests.Day15_TestNG_FrameworkCreate.C05_AramaTesti"></class>
+            <class name="tests.Day16_PageClassUse.C01_PageClassUse"></class>
+            <class name="tests.Day16_PageClassUse.C06_WebUniversityTest"></class>
+            <class name="tests.Day17_makeTestDataDynamic.C01_configurationFileUse"></class>
+            <class name="tests.Day17_makeTestDataDynamic.C02_DynamicNegatifLoginTest"></class>
+            <class name="tests.Day17_makeTestDataDynamic.C03_ShoppingCartTest"></class>
+            <class name="tests.Day18_softassert_xmlFiles.C01_softAssert"></class>
+            <class name="tests.Day18_softassert_xmlFiles.C02_softAssert"></class>
+        </classes>
+    </test>   
+</suite>
