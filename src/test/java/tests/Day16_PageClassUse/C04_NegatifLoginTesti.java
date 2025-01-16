@@ -4,8 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.TestOtomasyonuPage;
 import utilities.Driver;
+import utilities.TestBaseRapor;
 
-public class C04_NegatifLoginTesti {
+public class C04_NegatifLoginTesti extends TestBaseRapor {
   //  1- https://www.testotomasyonu.com/ anasayfasina gidin
   //  2- account linkine basin
   //  3- 3 farkli test method’u olusturun.
